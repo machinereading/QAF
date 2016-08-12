@@ -35,7 +35,7 @@ frdf-event:지휘하#2 fe:location "frdf-event:해전#1" .
 frdf-event:해전#1 fe:description "이순신 장군이 1597년에 명량해협에서 지휘한 해전" 
 ```
 
-# How to add LUs manually?
+## How to add LUs manually?
 FRDF system is based on the Korean frame-semantic parser that we developed. The first step of frame-semantic parsing is identification of the *TARGET word*(in above example, the word '해전') in the input sentence. Because of lack of training data, sometimes this parser does not detect the *TARGET words* and disambiguate it. To improve the performance immediately, you can add just LUs at this file:
 ```
 ./dictionary/Manual_LU.txt
