@@ -1,7 +1,7 @@
 # FRDF: Frame-semantic-based QA system
 
 ## Organization of FRDF
-FRDF consist of two major modules: 1) QAF - converts natural language question (NLQ) to SPARQL query, and 2) FRDF-KB - extract knowledge from text and convert it to RDF KB. At this time (August, 2016), only QAF module is published on this github repository (https://github.com/machinereading/FRDF).
+FRDF consist of two major modules: 1) **QAF** - converts natural language question (NLQ) to SPARQL query, and 2) **FRDF-KB** - extract knowledge from text and convert it to RDF KB. At this time (August, 2016), only QAF module is published on this github repository (https://github.com/machinereading/FRDF).
 
 ## Scope
 QAF module deals with 1) Korean, 2) single question sentence, and 3) pseudo query generation. In the next version, pseudo query would be converted to DBpedia SPARQL query to retrive answer directly.
@@ -36,7 +36,7 @@ frdf-event:해전#1 fe:description "이순신 장군이 1597년에 명량해협�
 ```
 
 # How to add LUs manually?
-FRDF system is based on the Korean frame-semantic parser that we developed. The first step of frame-semantic parsing is identification of the TARGET word in the input sentence. Because of lack of training data, sometimes this parser does not detect the TARGET words and disambiguate it. To improve the performance immediately, you can add just LUs at this file:
+FRDF system is based on the Korean frame-semantic parser that we developed. The first step of frame-semantic parsing is identification of the *TARGET word*(in above example, the word '해전') in the input sentence. Because of lack of training data, sometimes this parser does not detect the *TARGET words* and disambiguate it. To improve the performance immediately, you can add just LUs at this file:
 ```
 ./dictionary/Manual_LU.txt
 ```
