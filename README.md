@@ -32,7 +32,7 @@ frdf-event:지휘하#2 fe:leader "이순신 장군" .
 frdf-event:지휘하#2 fe:time "1597년" .
 frdf-event:지휘하#2 fe:place "명량해협" .
 frdf-event:지휘하#2 fe:location "frdf-event:해전#1" .
-frdf-event:해전#1 fe:description "이순신 장군이 1597년에 명량해협에서 지휘한 해전" 
+frdf-event:해전#1 fe:description "이순신 장군이 1597년에 명량해협에서 지휘한 해전" . 
 ```
 
 ## How to add LUs manually?
