@@ -1,0 +1,9 @@
+frame	target
+
+First_experience	최초
+First_experience	처음
+Extrem_value	최고
+Extrem_value	최상
+Extrem_value	최저
+Extrem_value	최하
+Proportional_quantity	가장

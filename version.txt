@@ -1,0 +1,21 @@
+#########################################################################
+
+Version: 0.8
+Date: 2016/08/10
+Author: Younggyun Hahm (hahmyg@kaist.ac.kr)
+Publisher: Machine Reading Lab@KAIST 
+
+  The QAF parser is the parser to analyze natural language question
+to generate SPARQL query. (e.g. for DBpedia, Freebase, ...)
+
+  Scope of the QAF parser is:
+  1)Korean, 2)one question sentence, and 3)Pseudo-SPARQL query generation
+  so if you want to generate DBpedia SPARQL query, 
+  Disambiguator and Query Generator should be developed.
+
+  If you want to add target-frame pair, 
+  	just edit & add lines at: ./dictionary/TargetLexical.txt
+
+  Please README.md file for more information
+
+##########################################################################

@@ -1,0 +1,7 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix frdf-event: <http://frdf.kaist.ac.kr/event/> .
+@prefix frame: <http://frdf.kaist.ac.kr/frame/> .
+@prefix fe: <http://frdf.kaist.ac.kr/fe/> .
+frdf-event:해전#1 rdf:type frame:Event .
+frdf-event:해전#1 fe:event ?answer .
+frdf-event:해전#1 fe:description "이순신 장군의 해전" .
