@@ -1,7 +1,7 @@
 # FRDF: Frame-semantic-based QA system
 
 ## Organization of FRDF
-FRDF consist of two major modules: 1) **QAF** - converts natural language question (NLQ) to SPARQL query, and 2) **FRDF-KB** - extracts knowledge from text and converts it to RDF KB. At this time (August, 2016), only QAF module is published on this github repository (https://github.com/machinereading/FRDF).
+FRDF consist of two major modules: 1) **QAF** - converts natural language question (NLQ) to SPARQL query, and 2) **FRDF-KB** - extracts knowledge from text and converts it to RDF KB. At this time (August, 2016), only QAF module is published on this [github repository] (https://github.com/machinereading/FRDF).
 
 ## Scope
 QAF module deals with 1) Korean, 2) single question sentence, and 3) pseudo query generation. In the next version, pseudo query would be converted to DBpedia SPARQL query to retrive answer directly.
