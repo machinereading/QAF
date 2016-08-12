@@ -10,13 +10,13 @@ QAF module deals with 1) Korean, 2) single question sentence, and 3) pseudo quer
 * `python 2.7`
 * `axon library` (https://github.com/intellimath/pyaxon) to see the Korean result in log file
 
-# How to run
+## How to run
 ```
 python qaf-parser.py -i "input sentence" -o outputfile
 ```
 `qaf-parser.py` would print detail logs on your screen, and the result (pseudo query) would be saved at outputfile (e.g. output.txt).
 
-# Example
+## Example
 Let input NLQ be: `python qaf-parser.py -i " 이순신 장군이 1597년에 명량해협에서 지휘한 해전은 무엇인가?" -o outputfile`
 then output would be:
 ```
