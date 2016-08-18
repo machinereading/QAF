@@ -6,9 +6,11 @@ FRDF consists of two major modules: 1) **QAF** - converts natural language quest
 ## Scope
 QAF module deals with 1) Korean, 2) single question sentence, and 3) pseudo query generation. In the next version, pseudo query would be converted to DBpedia SPARQL query to retrive answer directly.
 
-## Requirement
-* `python 2.7`
-* `axon library` (https://github.com/intellimath/pyaxon) to see the Korean result in log file
+## prerequisite
+* python 2.7
+* `pip install pyaxon` (to see the Korean result in log file)
+* `pip install httplib2` 
+* `pip install numpy`
 
 ## How to run
 ```
