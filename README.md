@@ -52,6 +52,9 @@ FRDF system is based on the Korean frame-semantic parser we developed. The first
 ## Project Web Page
 [http://machinereading.github.io/FRDF/] (http://machinereading.github.io/FRDF/)
 
+## Acknowledgement
+This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIP) (No. R0101-15-0054, WiseKB: Big data based self-evolving knowledge base and reasoning platform)
+
 ## Contact
 * Author: Younggyun Hahm (hahmyg@kaist.ac.kr)
 * Publisher: Machine Reading Lab @ KAIST (http://machinereading.kaist.ac.kr)
