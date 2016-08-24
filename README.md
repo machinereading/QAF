@@ -49,8 +49,8 @@ FRDF system is based on the Korean frame-semantic parser we developed. The first
 ## Citation
 (Submitted to Coling 2016)
 
-## Documentation
-FRDF system consist of several sub-modules to analyse Korean text. Some modules would be useful for your research and other purpose. Specified documentation would be published soon at its web page.
+## Project Web Page
+[http://machinereading.github.io/FRDF/] (http://machinereading.github.io/FRDF/)
 
 ## Contact
 * Author: Younggyun Hahm (hahmyg@kaist.ac.kr)
