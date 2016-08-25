@@ -28,8 +28,14 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h3>
-<a id="What-is-FRDF?" class="anchor" href="#What-is-FRDF?" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is FRDF?</h3>
+          
+<div id="toc">
+  <h2 class="fn">Table of Contents</h2>
+</div>
+
+
+
+<h2><a id="What-is-FRDF?" class="anchor" href="#What-is-FRDF?" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is FRDF?</h2>
 
 <p>For the KB-QA, two core modules are required. First, it is the query generation module, which understans natural language query (NLQ) and converts it to machine readable query (e.g. SPARQL query). Secend one is the knolwedge extraction module, which understand natural language text in the web and converts it to machine readable structured data (e.g. RDF triple). However, in the KB-QA respective, ontological representation of knowledge (called like 'typed relation', 'schema', 'T-Box', and so son) would use restricted vocabulary. For example, <a href="http://wiki.dbpedia.org/services-resources/ontology">DBpedia ontology T-Box</a> is based on the infobox in the Wikipedia. It would be modified to represent simple facts which be suit to encyclopedia's purpose, such as NAME, JOB, LOCATION, AGE, QUANTITY, ...(<a href="http://dl.acm.org/citation.cfm?id=2660534">Hahm et al., 2014</a>). T-Box-based natural language understanding approach (called top-down) would be limited because of its domain scope. For example, to understand the NLQ "Who is the first person reached the South Pole?" in the scope of DBpedia T-Box, the predicate 'reached' would be converted as <code>dbo:knownFor</code>, and the quantifier word 'first' could not be dealt with.</p>
 
@@ -40,7 +46,7 @@
 <p>For more information please visit: <a href="https://github.com/machinereading/FRDF">https://github.com/machinereading/FRDF</a>.</p>
 
 
-<h3><a id="contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<h2><a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
 
 <p>
   <ul>
@@ -49,12 +55,12 @@
   </ul>
 </p>
 
-<h3><a id="module-io-specification" class="anchor" href="#module-io-specification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module I/O Specification</h3>
+<h2><a id="module-io-specification" class="anchor" href="#module-io-specification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module I/O Specification</h2>
 
-<h4>LIBRARY 1: requestService</h4>
+<h3>LIBRARY 1: requestService</h3>
 <p>how to use: <code>import requestService</code></p>
-<h5>class: Parser</h5>
-<h6>method: espresso</h6>
+<h4>class: Parser</h4>
+<h5>method: espresso</h5>
 <p>description: This is the ESPRESSO parser, including morphological analyzer, dependency parser, SRL, NER, WSD, and co-reference resolution. For more information visit <a href="https://air.changwon.ac.kr/~airdemo/parser/">here</a></p>
 <p>
   usage example: </br>
