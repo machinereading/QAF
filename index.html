@@ -40,7 +40,7 @@
 
 
 
-<h2><a id="What-is-FRDF?" class="anchor" href="#What-is-FRDF?" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is FRDF?</h2>
+<h2 id="What-is-FRDF?"><a id="What-is-FRDF?" class="anchor" href="#What-is-FRDF?" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is FRDF?</h2>
 
 <p>For the KB-QA, two core modules are required. First, it is the query generation module, which understans natural language query (NLQ) and converts it to machine readable query (e.g. SPARQL query). Secend one is the knolwedge extraction module, which understand natural language text in the web and converts it to machine readable structured data (e.g. RDF triple). However, in the KB-QA respective, ontological representation of knowledge (called like 'typed relation', 'schema', 'T-Box', and so son) would use restricted vocabulary. For example, <a href="http://wiki.dbpedia.org/services-resources/ontology">DBpedia ontology T-Box</a> is based on the infobox in the Wikipedia. It would be modified to represent simple facts which be suit to encyclopedia's purpose, such as NAME, JOB, LOCATION, AGE, QUANTITY, ...(<a href="http://dl.acm.org/citation.cfm?id=2660534">Hahm et al., 2014</a>). T-Box-based natural language understanding approach (called top-down) would be limited because of its domain scope. For example, to understand the NLQ "Who is the first person reached the South Pole?" in the scope of DBpedia T-Box, the predicate 'reached' would be converted as <code>dbo:knownFor</code>, and the quantifier word 'first' could not be dealt with.</p>
 
@@ -52,7 +52,7 @@
 
 
 
-<h2><a id="module-io-specification" class="anchor" href="#module-io-specification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module I/O Specification</h2>
+<h2 id="module-io-specification"><a id="module-io-specification" class="anchor" href="#module-io-specification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module I/O Specification</h2>
 
 <h3>LIBRARY 1: requestService</h3>
 <p>how to use: <code>import requestService</code></p>
@@ -74,7 +74,7 @@
 <p><b>Description</b>: This is the ETRI parser, including morphological analyzer, dependency parser, SRL, NER, WSD, and co-reference resolution. <a href="http://etrij.etri.re.kr/etrij/journal/article/article.do?volume=36&issue=3&page=429">(Soojong Lim et al., 2014)</a></p>
 <p>
   <b>Usage Example</b>: </br>
-  <code>parser = requestService.Parser()</code>
+  <code>parser = requestService.Parser()</code></br>
   <code>nlpResult = parser.etri(str)</code>
 <p>
   <ul>
