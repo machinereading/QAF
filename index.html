@@ -51,10 +51,51 @@
 
 <h3><a id="module-io-specification" class="anchor" href="#module-io-specification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module I/O Specification</h3>
 
-<h4>module 1</h4>
-<p>documentation</p>
+<h4>LIBRARY 1: requestService</h4>
+<p>how to use: <code>import requestService</code></p>
+<h5>class: Parser</h5>
+<h6>method: espresso</h6>
+<p>description: This is the ESPRESSO parser, including morphological analyzer, dependency parser, SRL, NER, WSD, and co-reference resolution. For more information visit <a href="https://air.changwon.ac.kr/~airdemo/parser/">here</a></p>
+<p>
+  usage example: 
+  <code>parser = requestService.Parser()</code>
+  <code>nlpResult = parser.espresso(str)</code></p>
+<p>
+  <ul>
+    <i>input: <code>string</code>: input would be a one sentence by sentence</i>
+    <i>output: <code>json</code>: output is json format</i>
+  </ul>
+</p>
 
-<h5>sub-module 1</h5>
+<h6>method: etri</h6>
+<p>description: This is the ETRI parser, including morphological analyzer, dependency parser, SRL, NER, WSD, and co-reference resolution. <a href="http://etrij.etri.re.kr/etrij/journal/article/article.do?volume=36&issue=3&page=429">(Soojong Lim et al., 2014)</a></p>
+<p>
+  usage example: 
+  <code>parser = requestService.Parser()</code>
+  <code>nlpResult = parser.etri(str)</code></p>
+<p>
+  <ul>
+    <i>input: <code>string</code>: input would be a one sentence by sentence</i>
+    <i>output: <code>json</code>: output is json format</i>
+  </ul>
+</p>
+
+<h5>class: Stemmer</h5>
+<h6>method: stem</h6>
+<p>description: Stemmer</p>
+<p>
+  usage example: 
+  <code>stemmer = requestService.Stemmer()</code>
+  <code>stem = stemmer(str)</code></p>
+<p>
+  <ul>
+    <i>input: <code>string</code>: morphological analyzed word. e.g. <code>해전/NNG+은/JX</code></i>
+    <i>output: <code>string</code>: stem. e.g. </code>해전</code></i>
+  </ul>
+</p>
+
+
+
 <p>documentation</p>
 <h4>module 2</h4>
 <p>documentation</p>
