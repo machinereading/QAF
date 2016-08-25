@@ -97,6 +97,27 @@
   </ul>
 </p>
 
+<h4>class: WSD</h4>
+<h5>method: disambiguator</h5>
+<p><b>Description</b>: WSD tag extractor from JSON format NLP result</p>
+<p>
+  <b>Usage Example</b>: </br>
+  <code>wsd = requestService.WSD()</code></br>
+  <code>morp = nlpResult[0]["morp"]</code></br>
+  <code>wsd = nlpResult[0]["WSD"]</code></br>
+  <code>wsdDict = wsd.disambiguator(str,morp,wsd)</code></p>
+<p>
+  <ul>
+    <li>input: </br>
+    <code>str</code>: word. e.g. <code>해전</code></br>
+    <code>morp</code>: morphological analyzer result from Korean NLP tool. It is a part of JSON.
+    <code>wsd</code>: WSD result from Korean NLP tool. It is a part of JSON.
+    </li>
+    <li>output: <code>dictionary</code></br>
+    e.g. <code>{"text":"해전", "pos":"NNG", "ws_code":"03"}</code>
+  </ul>
+</p>
+
 
 
 
